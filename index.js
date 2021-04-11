@@ -1,6 +1,6 @@
-let browserIns = null
-const userAgent = window.navigator.userAgent
-const toString = Object.prototype.toString
+let browserIns = null;
+const userAgent = window.navigator.userAgent;
+const toString = Object.prototype.toString;
 
 function typeOf(obj) {
     const maps = {
